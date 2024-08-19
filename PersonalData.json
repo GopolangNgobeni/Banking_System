@@ -1,0 +1,24 @@
+{
+  "PERSONAL_DETAILS" : {
+    "Name" : "Gopolang",
+    "SurName" : "Ngobeni",
+    "Identity Number" : 981026,
+    "Occupation" : "student",
+    "Monthly_Income" : "R4300",
+    "Account_Type" : "cheque",
+    "ADDRESS" : {
+      "Street" : "28 Albet Street",
+      "Town" : "Marshalls Town",
+      "City" : "Johannesburg",
+      "PostalCode" : 2001
+    },
+    "CONTACT_DETAILS" : {
+      "Cellphone Number" : 634948055,
+      "EmailAddress" : ""
+    },
+    "SECURITY_COMPLIENCE_ANSWERS" : {
+      "Favourite_Color" : "pink",
+      "Primary_School" : "Mokonyama"
+    }
+  }
+}
