@@ -26,6 +26,7 @@ public class CreateAccount {
 
     String color;
     String pSchool;
+    int pinNumber;
 
     Scanner details = new Scanner(System.in);
 
@@ -98,6 +99,12 @@ public class CreateAccount {
 
 
     }
+    public void createPin(){
+        System.out.println("Enter any 4 digits to save as your account pin");
+        pinNumber = details.nextInt();
+        System.out.println("pin saved");
+        details.nextLine();
+    }
     public void securityQuestions(){
         System.out.println("--Answer the following security questions for account recovery.--");
         System.out.println("What is your favourite colour? ");
@@ -128,6 +135,7 @@ public class CreateAccount {
         address.put("Town",town);
         address.put("City",city);
         address.put("PostalCode",postalCode);
+        security.put("AccountPin: ", pinNumber);
         security.put("Favourite_Color", color);
         security.put("Primary_School", pSchool);
 
@@ -154,6 +162,7 @@ public class CreateAccount {
             call.getOccupation();
             call.getIncome();
             call.accountType();
+            call.createPin();
             call.securityQuestions();
             call.savePersonalDetails();
 

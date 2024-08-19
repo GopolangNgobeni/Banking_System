@@ -6,7 +6,7 @@ public class BankingApp {
 
     Scanner option = new Scanner(System.in);
     public void displayManu() {
-        System.out.println("Welcome to Online-banking ");
+        System.out.println("Welcome to Easy banking ");
 
         System.out.println("\n\n1. Log-in");
         System.out.println("2. Create Account ");

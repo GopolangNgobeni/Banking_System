@@ -7,9 +7,9 @@
     "Monthly_Income" : "R4300",
     "Account_Type" : "cheque",
     "ADDRESS" : {
-      "Street" : "28 Albet Street",
-      "Town" : "Marshalls Town",
-      "City" : "Johannesburg",
+      "Street" : "28 Albert street",
+      "Town" : "Marshalls town",
+      "City" : "Jozi",
       "PostalCode" : 2001
     },
     "CONTACT_DETAILS" : {
@@ -17,8 +17,9 @@
       "EmailAddress" : ""
     },
     "SECURITY_COMPLIENCE_ANSWERS" : {
+      "AccountPin: " : 2019,
       "Favourite_Color" : "pink",
-      "Primary_School" : "Mokonyama"
+      "Primary_School" : "mokonyama"
     }
   }
 }
