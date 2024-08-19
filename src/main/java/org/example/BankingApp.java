@@ -18,6 +18,8 @@ public class BankingApp {
         CreateAccount open = new CreateAccount();
 
         switch (choice){
+            case 1:
+                System.out.println("Welcome back");
             case 2:
                 open.openAccount();
                 break;
